@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Harsh Shah</h1>
 <h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=435&lines=Strategic+Customer+Success+Manager;SaaS+Expert+%7C+Cloud+Enthusiast;Product+Learner+%7C+Digital+Problem+Solver;Toronto+%7C+Global+Experience" alt="Typing SVG" />
-</h3>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=700&lines=Strategic+Customer+Success+Manager;SaaS+Expert+%7C+Cloud+Enthusiast;Product+Learner+%7C+Digital+Problem+Solver;Toronto+%7C+Global+Experience" alt="Typing SVG" />
+
 
 <p align="center">
   <a href="https://www.linkedin.com/in/harshashwinshah/" target="_blank">
