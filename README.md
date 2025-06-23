@@ -1,91 +1,92 @@
-<h1 align="center">Hi 👋, I'm Harsh Shah</h1>
-<h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=700&lines=Strategic+Customer+Success+Manager;SaaS+Expert+%7C+Cloud+Enthusiast;Product+Learner+%7C+Digital+Problem+Solver;Toronto+%7C+Global+Experience" alt="Typing SVG" />
+import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Mail, Linkedin } from "lucide-react";
 
+export default function Portfolio() {
+  return (
+    <div className="min-h-screen bg-gray-950 text-white px-6 py-12 font-sans">
+      <header className="text-center mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi 👋, I'm Harsh Shah</h1>
+        <p className="text-xl md:text-2xl text-gray-400">
+          Strategic Customer Success Manager | SaaS Expert | Cloud Enthusiast
+        </p>
+        <div className="flex justify-center mt-6 gap-4">
+          <Button asChild variant="outline">
+            <a href="mailto:haarsh.shahh@gmail.com" target="_blank">
+              <Mail className="mr-2" /> Email
+            </a>
+          </Button>
+          <Button asChild variant="outline">
+            <a href="https://www.linkedin.com/in/harshashwinshah" target="_blank">
+              <Linkedin className="mr-2" /> LinkedIn
+            </a>
+          </Button>
+        </div>
+      </header>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/harshashwinshah/" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="mailto:haarsh.shahh@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
-  </a>
-</p>
+      <section className="mb-12 max-w-4xl mx-auto">
+        <h2 className="text-3xl font-semibold mb-6 text-teal-400">About Me</h2>
+        <p className="text-gray-300 leading-relaxed">
+          I’m a Customer Success Leader and Product Management enthusiast with over 5 years of experience in SaaS and
+          digital marketing. I specialize in client retention, digital strategy, product adoption, and stakeholder
+          engagement. Currently upskilling in AWS Cloud and Product Lifecycle Management.
+        </p>
+      </section>
 
----
+      <section className="mb-12 max-w-4xl mx-auto">
+        <h2 className="text-3xl font-semibold mb-6 text-teal-400">Experience Highlights</h2>
+        <Card className="mb-4">
+          <CardContent className="p-6">
+            <h3 className="text-xl font-bold">Strategic Customer Success Manager – Milestone Inc (Toronto, Canada)</h3>
+            <p className="text-sm text-gray-400">Mar 2024 – Present</p>
+            <ul className="list-disc list-inside text-gray-300 mt-2">
+              <li>Managing enterprise franchise clients across North America</li>
+              <li>Leading onboarding and campaign execution across SEO, PPC, and analytics</li>
+              <li>Delivering performance reports and QBRs to C-level clients</li>
+              <li>Driving retention and upsell strategies</li>
+            </ul>
+          </CardContent>
+        </Card>
 
-## 🌟 About Me
+        <Card className="mb-4">
+          <CardContent className="p-6">
+            <h3 className="text-xl font-bold">Customer Success Manager – Milestone Internet Pvt Ltd (India)</h3>
+            <p className="text-sm text-gray-400">Mar 2023 – Feb 2024</p>
+            <ul className="list-disc list-inside text-gray-300 mt-2">
+              <li>Managed 30+ B2B accounts with 95%+ retention</li>
+              <li>Improved NPS and reduced Time-to-Value by 20%</li>
+              <li>Led upsell initiatives and client onboarding programs</li>
+            </ul>
+          </CardContent>
+        </Card>
 
-🔹 5+ years in **Customer Success**, **Account Management**, and **SaaS**  
-🔹 Proven success in **retention, upsell, digital marketing, and stakeholder management**  
-🔹 Currently building skills in **AWS Cloud (Certified Practitioner)** & **Product Management (IBM)**  
-🔹 Based in **Toronto** with international experience across **Canada & India**
+        <Card className="mb-4">
+          <CardContent className="p-6">
+            <h3 className="text-xl font-bold">Product Specialist – Adit</h3>
+            <p className="text-sm text-gray-400">Oct 2021 – Mar 2023</p>
+            <ul className="list-disc list-inside text-gray-300 mt-2">
+              <li>Launched SaaS product that scaled to $1.8M/month</li>
+              <li>Led onboarding for 120+ clients</li>
+              <li>Implemented client-requested features</li>
+            </ul>
+          </CardContent>
+        </Card>
+      </section>
 
----
+      <section className="mb-12 max-w-4xl mx-auto">
+        <h2 className="text-3xl font-semibold mb-6 text-teal-400">Certifications & Learning</h2>
+        <ul className="list-disc list-inside text-gray-300">
+          <li>AWS Certified Cloud Practitioner (in progress)</li>
+          <li>Product Management – IBM (Coursera)</li>
+          <li>Google Digital Marketing & E-Commerce (2024)</li>
+          <li>Key Account Management, Totango Success Dreamer</li>
+        </ul>
+      </section>
 
-## 🔧 Skills & Tools
-
-### 🧠 Business & Strategy
-- Customer Account Management
-- SaaS Success Lifecycle
-- Product Adoption & Retention
-- Upsell & Expansion
-- Contract Renewal & Churn Reduction
-- Client Stakeholder Engagement
-
-### 🛠️ Tools
-![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white)
-![Zoho](https://img.shields.io/badge/Zoho-ec1d24?style=for-the-badge&logo=zoho&logoColor=white)
-![JIRA](https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![NetSuite](https://img.shields.io/badge/NetSuite-003A5D?style=for-the-badge&logo=oracle&logoColor=white)
-![Google Analytics](https://img.shields.io/badge/Google_Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-
----
-
-## 📈 Achievements
-
-✅ Scaled payment gateway volume from **$60K to $1.8M/month**  
-✅ Delivered **$100K** in new revenue in Q4 2023 & **$35K** in Q2 2024  
-✅ Reduced churn to **<2%** for 4 consecutive quarters  
-✅ Achieved **125% upsell targets** & maintained **95%+ client retention**
-
----
-
-## 🎓 Certifications & Learning
-
-- 🧠 **AWS Certified Cloud Practitioner** *(In Progress)*  
-- 🧠 **Product Management – IBM via Coursera** *(In Progress)*  
-- 🎯 Google Digital Marketing & E-commerce  
-- 🎯 Great Learning: Digital Strategy  
-- 💡 Email & PPC Ads (Google Certified)
-
----
-
-## 🗣️ Languages
-
-- **English** – Native Proficiency  
-- **Hindi & Gujarati** – Fluent
-
----
-
-## 🔥 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=harshshah&show_icons=true&theme=radical" alt="Harsh's GitHub stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=harshshah&theme=radical" alt="Harsh's GitHub streak" />
-</p>
-
----
-
-## ✉️ Let's Connect
-
-- 📫 **Email**: [haarsh.shahh@gmail.com](mailto:haarsh.shahh@gmail.com)  
-- 🔗 **LinkedIn**: [linkedin.com/in/harshashwinshah](https://linkedin.com/in/harshashwinshah)
-
----
-
-*🚀 Always learning. Always building. Let’s grow together!*
+      <footer className="text-center text-sm text-gray-500">
+        &copy; {new Date().getFullYear()} Harsh Shah. All rights reserved.
+      </footer>
+    </div>
+  );
+}
